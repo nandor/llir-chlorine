@@ -80,6 +80,7 @@ pick! {
       any(target_arch = "aarch64", target_arch = "arm")
     ),
     all(target_os = "l4re", target_arch = "x86_64"),
+    all(target_os = "l4re", target_arch = "llir_x86_64"),
     all(
       target_os = "freebsd",
       any(
@@ -125,6 +126,7 @@ pick! {
       any(target_arch = "aarch64", target_arch = "arm")
     ),
     all(target_os = "l4re", target_arch = "x86_64"),
+    all(target_os = "l4re", target_arch = "llir_x86_64"),
     all(
       target_os = "freebsd",
       any(
@@ -182,6 +184,7 @@ pick! {
     target_arch = "sparc64",
     target_arch = "x86",
     target_arch = "x86_64",
+    target_arch = "llir_x86_64",
     target_arch = "nvptx",
     target_arch = "nvptx64",
     target_arch = "xtensa",
